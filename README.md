@@ -2,7 +2,7 @@
 
 The SQLite database behind the **Is this UPF?** iOS app: UK packaged foods from [Open Food Facts](https://world.openfoodfacts.org), each with a [NOVA](https://doi.org/10.1017/S1368980018003762) group (1–4, from unprocessed to ultra-processed) and the ingredients that decided it.
 
-Download it from **[Releases](../../releases)**. Each release is one build, tagged `db-<version>`. The version is the Open Food Facts snapshot date followed by the version of the classification rules (e.g. `db-20261004-0.4.0`).
+Download it from **[Releases](../../releases)**. Each release is one build, tagged `db-<version>`. The version is the Open Food Facts snapshot date, the version of the classification rules, and a pipeline revision (e.g. `db-20261004-0.4.0-r2`). The revision goes up when the processing code changes the database built from the same snapshot and rules, for example better detection of non-English ingredient lists. It is never reset. The first release, `db-20261004-0.4.0`, came before the revision was added; `-r2` replaces it.
 
 | File | What it is |
 |---|---|
