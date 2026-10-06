@@ -27,7 +27,7 @@ Key/value text about the build.
 | `stores` | UK supermarket chains it's recorded at, comma-separated. |
 | `nova_group` | 1–4, or NULL when unknown. |
 | `confidence` | `high`, `medium` or `low` (NULL when unknown). |
-| `unknown_reason` | When `nova_group` is NULL: `no_ingredients`, `not_english`, `unparseable`, `out_of_scope` (alcoholic drinks) or `not_food` (supplements and medicines). |
+| `unknown_reason` | When `nova_group` is NULL: `no_ingredients`, `not_english`, `unparseable` (text that isn't a readable ingredients list), `out_of_scope` (alcoholic drinks) or `not_food` (supplements and medicines). |
 | `ingredients_text` | The ingredients list as displayed. |
 | `popularity` | Open Food Facts unique scans. |
 | `off_last_modified` | Unix time of the last Open Food Facts edit. |
